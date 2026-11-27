@@ -1,0 +1,27 @@
+# Ambientes virtuais e cache Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Dados brutos e processados (baixar do Kaggle conforme README.md)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/
+*.csv
+*.parquet
+
+# Artefatos gerados durante a execução
+models/
+figures/
+results/
+*.joblib
+
+# Arquivos de sistema e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
